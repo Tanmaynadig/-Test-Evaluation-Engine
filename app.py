@@ -31,7 +31,7 @@ except Exception as e:
     logger.critical(f"FATAL: Failed to initialize Firebase: {e}")
 
 # --- API Configuration ---
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.environ.get("#########")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 
@@ -277,3 +277,4 @@ def logout():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
+
